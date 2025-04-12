@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Календарь</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+	<header>
+		<h1 class="title">Календарь Январь 2025</h1>
+		<p class="subtitle">С новым годом! Желаю всего наилучшего!</p>
+	</header>
+<div>
+	<div class="calendar">
+		<div class="days-of-week">
+			<div class="day">ПН</div>
+			<div class="day">ВТ</div>
+			<div class="day">СР</div>
+			<div class="day">ЧТ</div>
+			<div class="day">ПТ</div>
+			<div class="day">СБ</div>
+			<div class="day">ВС</div>
+		</div>
+
+		<div class="days">
+			<div class="day-namber"></div>
+			<div class="day-namber"></div>
+
+			<div class="day-namber" onclick="showTooltip(this)">1</div>
+			<div class="tooltip">Желаем Вам не проснуться под ёлкой</div>
+
+			<div class="day-namber" onclick="showTooltip(this)">2</div>
+			<div class="tooltip">Сходи погуляй</div>
+			<div class="day-namber" onclick="showTooltip(this)">3</div>
+			<div class="tooltip">Попей воды</div>
+			<div class="day-namber" onclick="showTooltip(this)">4</div>
+			<div class="tooltip">Сходи на каток</div>
+			<div class="day-namber" onclick="showTooltip(this)">5</div>
+			<div class="tooltip">Встреть родителей</div>
+
+			<div class="day-namber" onclick="showTooltip(this)">6</div>
+			<div class="tooltip">Сходи покушай</div>
+			<div class="day-namber" onclick="showTooltip(this)">7</div>
+			<div class="tooltip">Посмотри сериал</div>
+			<div class="day-namber" onclick="showTooltip(this)">8</div>
+			<div class="tooltip">Сходи в магазин</div>
+			<div class="day-namber" onclick="showTooltip(this)">9</div>
+			<div class="tooltip">Приберись дома</div>
+			<div class="day-namber" onclick="showTooltip(this)">10</div>
+			<div class="tooltip">Поговори с родственниками</div>
+			<div class="day-namber" onclick="showTooltip(this)">11</div>
+			<div class="tooltip">Сходи в кино</div>
+			<div class="day-namber" onclick="showTooltip(this)">12</div>
+			<div class="tooltip">Покатайся на лыжах</div>
+
+			<div class="day-namber" onclick="showTooltip(this)">13</div>
+			<div class="tooltip">Сходи на вечеринку</div>
+			<div class="day-namber" onclick="showTooltip(this)">14</div>
+			<div class="tooltip">Проснись и пой</div>
+			<div class="day-namber" onclick="showTooltip(this)">15</div>
+			<div class="tooltip">Позвони сестре</div>
+			<div class="day-namber" onclick="showTooltip(this)">16</div>
+			<div class="tooltip">Удели время своим желаниям</div>
+			<div class="day-namber" onclick="showTooltip(this)">17</div>
+			<div class="tooltip">Проведи время с котом</div>
+			<div class="day-namber" onclick="showTooltip(this)">18</div>
+			<div class="tooltip">Отдохни!!!!!!!!</div>
+			<div class="day-namber" onclick="showTooltip(this)">19</div>
+			<div class="tooltip">Сегодня ты станешь лучшей версией себя</div>
+
+			<div class="day-namber" onclick="showTooltip(this)">20</div>
+			<div class="tooltip">Возьми выходной на 200 лет</div>
+			<div class="day-namber" onclick="showTooltip(this)">21</div>
+			<div class="tooltip">Сходи в гости</div>
+			<div class="day-namber" onclick="showTooltip(this)">22</div>
+			<div class="tooltip">Ложись поспи</div>
+			<div class="day-namber" onclick="showTooltip(this)">23</div>
+			<div class="tooltip">Исполни свою мечту</div>
+			<div class="day-namber" onclick="showTooltip(this)">24</div>
+			<div class="tooltip">Доделай дела с прошлого года</div>
+			<div class="day-namber" onclick="showTooltip(this)">25</div>
+			<div class="tooltip">Погуляй с друзьями</div>
+			<div class="day-namber" onclick="showTooltip(this)">26</div>
+			<div class="tooltip">съездите в другую страну</div>
+
+			<div class="day-namber" onclick="showTooltip(this)">27</div>
+			<div class="tooltip">Погуляйте по городу</div>
+			<div class="day-namber" onclick="showTooltip(this)">28</div>
+			<div class="tooltip">Купите себе вещей для дома</div>
+			<div class="day-namber" onclick="showTooltip(this)">29</div>
+			<div class="tooltip">Купите сувениры друзьям</div>
+			<div class="day-namber" onclick="showTooltip(this)">30</div>
+			<div class="tooltip">Сходите на пляж</div>
+			<div class="day-namber" onclick="showTooltip(this)">31</div>
+			<div class="tooltip">Вернитесь домой</div>
+			<div class="day-namber"></div>
+			<div class="day-namber"></div>
+
+		</div>
+	</div>
+</div>
+
+<script>
+	function showTooltip(dayElement){
+		const tooltip = dayElement.nextElementSibling;
+		tooltip.style.display=tooltip.style.display==='block'?'none':'block';
+	}
+</script>
+
+</div>
+</body>
+</html>
